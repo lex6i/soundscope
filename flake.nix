@@ -1,5 +1,5 @@
 {
-  description = "Soundscope - TUI audio file analyzer tool"
+  description = "Soundscope - TUI audio file analyzer tool";
 
   inputs = {
     nixpkgs.url = "nixpkgs/nixos-26.05";
