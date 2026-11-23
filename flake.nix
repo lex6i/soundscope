@@ -23,6 +23,15 @@
             src = ./.;
 
             cargoLock.lockFile = ./Cargo.lock;
+
+            nativeBuildInputs = with pkgs; [
+              pkg-config
+            ];
+
+            buildInputs = with pkgs; [
+              libjack2
+              alsa-lib
+            ]
           };
         }
       );
