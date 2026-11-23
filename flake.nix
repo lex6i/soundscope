@@ -31,7 +31,7 @@
             buildInputs = with pkgs; [
               libjack2
               alsa-lib
-            ]
+            ];
           };
         }
       );
